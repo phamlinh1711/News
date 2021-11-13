@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="#EEEEEE">
+                        <TextView
+                            android:id="@+id/txt1"
+                            style="@style/txtSmallCategories"
+                            android:text="1.    Nóng"/>
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="2.    Theo dõi"/>
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="3.    Pháp luật"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="4.    Thế giới"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="5.    Ẩm thực"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="6.    Thể thao"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="7.    Sức khỏe"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="8.    Giải trí"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="9.    Du lịch"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="10.    Công nghệ"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="11.    Thời tiết"/>
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_marginTop="1dp"
+                            style="@style/txtSmallCategories"
+                            android:text="12.    Tình yêu"/>
+
+                </LinearLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

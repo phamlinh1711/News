@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    tools:context=".Account">
+
+    <RelativeLayout
+        android:id="@+id/titleAccount"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/imgAccountBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="0dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/titleAccount"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/infAccount"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/white"
+        android:layout_below="@id/titleAccount">
+
+        <ImageView
+            android:id="@+id/imageAccount"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_cat" />
+
+        <TextView
+            android:id="@+id/txtAccountName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/imageAccount"
+            android:text="@string/accountName"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInfAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtAccountName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/imageAccount"
+            android:text="@string/infAccount"
+            android:textColor="#090808" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settingView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/infAccount"
+        android:layout_marginTop="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/setting"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/settingList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSetting"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutSP"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/settingView"
+        android:layout_marginTop="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txtSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/sanpham"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/listSP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtSP"
+            android:layout_marginTop="10dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutLogOut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layoutSP"
+        android:layout_marginTop="3dp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/LogOut"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

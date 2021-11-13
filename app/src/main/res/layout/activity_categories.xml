@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categories">
+
+    <RelativeLayout
+        android:id="@+id/viewActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary">
+
+        <ImageButton
+            android:id="@+id/imgCategoriesBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/colorPrimary"
+            android:padding="0dp"
+            android:src="@drawable/ic_back" />
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/titleCategories"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/viewMode"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/viewActionBar"
+        android:background="#EEEEEE">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabViewMode"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            app:tabIndicatorColor="@color/colorPrimary"
+            app:tabSelectedTextColor="@color/colorPrimary"
+            app:tabTextColor="@color/black" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@id/viewMode"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerCate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thoisu">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/imageView1"
+                style="@style/imageContent"
+                android:src="@drawable/img_ldtv"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                style="@style/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Lao động quay trở lại TP.HCM sẽ được tiêm vắc xin ngay cửa ngõ TP"
+                />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                style="@style/imageContent"
+                android:src="@drawable/img_banggia"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Dùng bằng giả, 'tráo thân' để thăng tiến và chuyện bất ngờ té ghế" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                style="@style/imageContent"
+                android:src="@drawable/img_xoatc"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Xoá tư cách nguyên Chủ tịch tỉnh Bình Dương Trần Thanh Liêm" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                style="@style/imageContent"
+                android:src="@drawable/img_lu"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Miền trung mưa lớn gây ra lũ lụt thiệt hại hàng tỷ đồng cho người dân" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                style="@style/imageContent"
+                android:src="@drawable/img_dexuat"
+                android:scaleType="fitXY"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/txtContent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:text="Đề xuất dùng ngân sách thanh toán tất cả chi phí điều trị bệnh nhân Covid-19" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

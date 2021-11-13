@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#8B0000">
+
+        <ImageButton
+            android:id="@+id/imgDetailsBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#8B0000"
+            android:padding="0dp"
+            android:src="@drawable/ic_back" />
+
+        <ImageButton
+            android:id="@+id/favoritebtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="220dp"
+            android:layout_toRightOf="@+id/imgDetailsBack"
+            android:backgroundTint="#8B0000"
+            android:src="@drawable/star" />
+
+        <ImageButton
+            android:id="@+id/sharebtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/favoritebtn"
+            android:backgroundTint="#8B0000"
+            android:padding="0dp"
+            android:src="@drawable/ic_share" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@+id/layoutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/tintuc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layoutTitle">
+
+            <TextView
+                android:id="@+id/T1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="20sp"
+                android:text="Du lịch  Thứ 2, 10/10/2021"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/T2"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:layout_below="@+id/T1"
+                android:paddingLeft="10dp"
+                android:paddingBottom="15dp"
+                android:text="TP Đà Nẵng có bãi biển xanh và sạch hấp dẫn các du khách"
+                android:textAllCaps="true"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/sunset"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_below="@+id/T2"
+                android:src="@drawable/sunset" />
+
+            <TextView
+                android:id="@+id/noidung"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sunset"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:scrollHorizontally="false"
+                android:text="@string/content"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="110dp"
+                android:layout_height="11dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/telegram" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

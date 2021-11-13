@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name"> News </string>
+    <string name="news"> NEWS </string>
+    <string name="titleRegister"> Đăng ký tài khoản</string>
+    <string name="email"> Email</string>
+    <string name="login"> Đăng nhập</string>
+    <string name="register"> <u>Đăng ký ngay</u></string>
+    <string name="username"> Tên Đăng nhập </string>
+    <string name="phone"> Số điện thoại </string>
+    <string name="password"> Mật khẩu </string>
+    <string name="titleAccount"> Cài đặt &amp; tài khoản </string>
+    <string name="accountName"> Hoàng Anh </string>
+    <string name="infAccount"> Xem thông tin tài khoản </string>
+    <string name="setting"> Setting </string>
+    <string name="sanpham"> Sản phẩm</string>
+    <string name="LogOut"> Đăng xuất</string>
+    <string name="follow"> Theo dõi </string>
+    <string name="titleCategories"> Chuyên mục </string>
+    <string name="titleForgot"> Quên mật khẩu</string>
+    <string name="content">Đến thăm Đà Nẵng, Du khách còn được tìm hiểu các giá trị lịch sử của người Chăm
+        tại Bảo tàng Chăm nổi tiếng, thăm danh thắng Ngũ Hành Sơn, chùa Non Nước, chùa Linh Ứng,
+        thoát tục với Bà Nà hill, mơ màng với biển, rộn rã với Sơn Trà hay tham gia Open tới Cù Lao Chàm, Phố Cổ Hội An,
+        thánh địa Mỹ Sơn....Bạn có thể tận hưởng một thời gian vui vẻ tại bãi biển Mỹ Khê. Biển mỹ khê là bãi biển lọt top 50
+        bãi biển đẹp nhất hành tinh. Không chỉ như vậy, nó còn có ảnh hưởng không nhỏ đến du lịch Việt Nam. Nếu bãi biển này không
+        được giữ gìn sạch sẽ, nó có thể tạo ra ảnh hưởng xấu đến du lịch Việt Nam. Vì vậy mọi người cần phải giữ gìn,bảo tồn và
+        phát huy thêm những giá trị của bãi biển để bãi biển ngày càng xanh, sạch, đẹp.Đến thăm Đà Nẵng, Du khách còn được tìm
+        hiểu các giá trị lịch sử của người Chăm tại Bảo tàng Chăm nổi tiếng, thăm danh thắng Ngũ Hành Sơn, chùa Non Nước, chùa
+        Linh Ứng, thoát tục với Bà Nà hill, mơ màng với biển, rộn rã với Sơn Trà hay tham gia Open tới Cù Lao Chàm, Phố Cổ Hội An,
+        thánh địa Mỹ Sơn....Bạn có thể tận hưởng một thời gian vui vẻ tại bãi biển Mỹ Khê.</string>
+    <string name="titleDL">TP Đà Nẵng có bãi biển xanh và sạch hấp dẫn các du khách</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="app_theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+    </style>
+
+    <style name="editTextLogin">
+        <item name="android:layout_width"> 350dp </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:layout_centerHorizontal"> true </item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:background"> @drawable/round_border </item>
+        <item name=" android:textSize"> 18dp </item>
+        <item name="android:padding"> 16dp </item>
+    </style>
+
+    <style name="txtRegister">
+        <item name="android:layout_width"> wrap_content </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:layout_marginLeft"> 20dp </item>
+        <item name="android:textColor"> @color/colorPrimary </item>
+        <item name="android:textSize"> 20dp </item>
+    </style>
+
+    <style name="editRegister">
+        <item name="android:layout_width"> 380dp </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:layout_centerHorizontal"> true </item>
+        <item name="android:backgroundTint"> @color/colorPrimary </item>
+    </style>
+
+    <style name="imageContent">
+        <item name="android:layout_width"> 350dp </item>
+        <item name="android:layout_gravity"> center_horizontal </item>
+        <item name="android:layout_height"> 200dp </item>
+    </style>
+
+    <style name="txtContent">
+        <item name="android:layout_gravity"> center_horizontal</item>
+        <item name="android:layout_width"> 350dp </item>
+        <item name="android:layout_height"> wrap_content</item>
+        <item name="android:textColor"> @color/black </item>
+        <item name="android:textSize"> 20dp </item>
+    </style>
+
+    <style name="txtSmallCategories">
+        <item name="android:layout_width"> match_parent </item>
+        <item name="android:layout_height"> wrap_content </item>
+        <item name="android:padding"> 20dp </item>
+        <item name="android:textSize"> 20dp </item>
+        <item name="android:textColor"> @color/black </item>
+        <item name="android:background"> @color/white </item>
+    </style>
+</resources>
